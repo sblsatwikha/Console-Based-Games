@@ -1,6 +1,7 @@
 # Console-Based-Games
 
 𝐂𝟏𝟓𝐏𝐮𝐳𝐳𝐥𝐞 𝐆𝐚𝐦𝐞:
+
     1.This is a NxM table where N,M>1 and the numbers should be in the range 0 to (N*M-1) where empty tile is represented by "0".
     
     2.Game can be played using A,a - LEFT : S,s -DOWN : W,w -UP : D,d :RIGHT.

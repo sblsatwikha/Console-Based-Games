@@ -11,10 +11,10 @@ typedef struct Board {
 	//No of cols of Table
 	int cols;
 
-	//Row postion of the emptyTile ie the 0's row position in table,ie if table[2][4] is 0,emptyTileRow will be 2
+	//Row postion of the emptyTile ie the 0's row position in table
 	int emptyTileRow;
 
-	//Col postion of the emptyTile ie the 0's col position in table,ie if table[2][4] is 0,emptyTileCol will be 4
+	//Col postion of the emptyTile ie the 0's col position in table
 	int emptyTileCol;
 }Board;
 
@@ -83,7 +83,7 @@ int checkBoard(Board * board){
 void drawBoardOnScreen(Board *board){
 
 	/*
-	Example  : Print the current board like
+	Board should be printed something like this:
 	1  2  3  4
 	5  6  7  8
 	9 10 11 12
